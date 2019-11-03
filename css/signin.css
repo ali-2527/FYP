@@ -1,0 +1,251 @@
+.container-fluid{
+    margin: 0;
+    padding: 0 !important;
+}
+
+body{
+    background-image: url(../img/background.jpeg);
+    /*background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0)),url(../img/background.jpeg);*/
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+.header ,.footer{
+    background-color: #0009;
+    width:100%;
+    height: 80px;
+}
+.header img{
+    width:70px;
+    height:70px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+.header p{
+    color: white;
+    font-size: 15px;
+    position: absolute;
+    top: 33px;
+    right: 125px;
+   
+}
+.header button{
+    background-color: purple;
+    border: none;
+    border-radius: 5px;
+    width:90px;
+    height:40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: white;
+}
+
+.header button:hover  
+{
+    background-color: grey;
+    
+    
+}
+
+.header button:focus {outline:0;  box-shadow:  none;}
+
+/*.row div {
+  border: 1px solid lightgrey;
+  background-color;
+}*/
+
+
+.cont { 
+padding:50px !important;
+}
+
+
+.cont h1 {
+font-family: 'Galada', sans-serif !important;
+color: #585858;
+font-size:  40px;
+}
+.cont p {
+color: #585858;
+text-transform: capitalize;
+font-size: 20px;
+font-family: Arial;
+text-align: justify;
+}
+
+.cont button{
+    width:150px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    color: white;
+    background-color: purple;
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+}
+.cont button:hover{background-color: grey;}
+.cont button:focus {outline:0;}
+
+.wrapper [class*='col-md-4']:before {
+  background: #e0e0e0;
+  width: 8px;   
+  content: "";
+  display:block;
+  position: absolute;
+  top:20;
+  bottom: 20;
+  left: 0;
+  min-height: 70px;
+}
+.loginfrm{
+    background-image: linear-gradient(rgba(153,0,153,0.5),rgba( 51,51,225,0.5));
+    margin: auto!important;
+    margin-top: 22px !important;
+    margin-bottom: 22px !important;
+    width: 90%  !important;
+    height: 90% !important;
+    border: none;
+    border-radius: 10px;
+    padding: 20px !important;
+   
+}
+
+.circle{
+    background-image: url(../img/mountain.jpeg);
+    background-size: cover;
+    background-position: center !important;
+    border: none;
+    border-radius: 100px;
+   width: 120px;
+    height: 120px !important ;
+    margin: 0 auto 10px;
+    display: block;
+    border-radius: 50%;
+}
+
+.txtbox input[type="text"],input[type="password"]{
+    width: 90%;
+    border: none;
+    margin-left: none;
+    border-radius: 25px;
+    float: right;
+    height: 100%;
+    padding: 10px;
+   max-width: 700px;
+    background-color: transparent;
+    color: purple;
+}
+
+.txtbox{
+    background-color: rgba(230,230,230,0.8);
+    border-radius: 25px;
+    padding-left:4%;
+    width: 100%;
+    height: 8%;
+}
+
+
+.txtbox i{  
+    font-size-adjust: auto;
+ float: left;
+    margin-top: 12px;
+  color: purple;
+}
+
+.loginfrm input[type="text"]:focus{
+   outline: 0;
+    box-shadow: 0px 0px 10px 10px grey;
+  animation: anim-shadow 0.8s ease-in-out forwards;
+}
+.loginfrm input[type="password"]:focus{
+   outline: 0;
+    box-shadow: 0px 0px 10px 10px grey;
+  animation: anim-shadow 0.8s ease-in-out forwards;
+}
+
+
+@media only screen and (max-width: 750px) {
+   .txtbox input[type="text"],input[type="password"]{
+    width: 95%;
+       
+}
+}
+
+@media only screen and (max-width: 400px) {
+   .txtbox input[type="text"],input[type="password"]{
+    width: 90%;
+    }
+}
+
+@keyframes anim-shadow {
+  to {
+    box-shadow: 0px 0px 0px 0px purple;
+  }
+}
+
+::placeholder { 
+    color: gray;
+    opacity: 0.6;
+}
+
+.btn-group{
+    width:100%;
+    outline: 0;
+}
+
+.btn-group .button:first-child {
+    border-radius: 60px 0 0 60px;
+    width: 100%;
+     outline: 0;
+    
+}
+.btn-group .button:last-child {
+    border-radius: 0 60px 60px 0 ;
+    
+    width: 100%;
+     outline: 0;
+    margin-right: 0%;
+}
+.lable{
+    color:white;
+    font-size: 20px;
+    font-family: 'galada',sans-serif;
+    margin-left: 5%;
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    color: purple;
+    border: 1px solid purple;
+}
+
+.button:focus {
+    background-color: purple;
+    color: white;
+
+}
+
+
+.signin-button{
+    margin: auto;
+    background-color: purple;
+    color: white;
+    font-size-adjust: auto;
+    border:none;    
+    border-radius: 25px;
+    width: 100%;
+    height: 8%;
+}
+
+.signin-button:focus{outline: 0;}
+.signin-button:hover{background-color: gray;}
+.footer p{
+    color: lightgray;
+    text-align: center;
+    padding-top: 30px;
+}

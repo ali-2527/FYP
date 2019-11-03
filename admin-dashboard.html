@@ -1,0 +1,373 @@
+<html>
+<head>
+ <title>Admin</title>
+<link href="https://fonts.googleapis.com/css?family=Galada" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+ <link rel="shortcut icon" href= "img/underconstruction.png" type="image/x-icon"> 
+ <link rel="stylesheet" href= "css/admin-dashboard.css" type="text/css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+ <meta name="keyword" content ="add all the keywords you want"/>
+ <meta name="discription" content ="add a little discription of your webpage"/>
+ <meta name="author" content ="Ali Hussain"/>
+ <!--<meta http-equiv="refresh" content ="20"/>new content will update in 20 sec-->
+ <meta http-equiv="content-type" content ="text/html"  charset="UTF-8" />
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="css/bootstrap.min.css">   
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery.min.js"></script>
+  <script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+ 
+</head>
+    <body>
+   <nav class="navbar navbar-expand-lg navbar-inverse  headnav">
+        <div class="container-fluid">
+            
+      <a href="#"  class="navbar-brand">My logo</a>
+ <form class="form-inline  ml-auto" style="margin-bottom: 0!important;">
+     
+     
+     <div class="dropdown">
+  <button class="dropbtn btn btn-outline-info">Account</button>
+  <div class="dropdown-content"><br>
+      <center><h4>Admin</h4></center>
+      <hr>
+       <ul class="acount_detail">
+        <li><a href="#" onclick="openCity(event, 'profile')"><i class="fas fa-user"></i>  profile </a></li><br><br>
+        <li> <a href="#" onclick="openCity(event, 'password')"><i class="fas fa-key"></i>  Change Password </a> </li>
+        </ul>
+  </div>
+   </div>&nbsp;&nbsp;     
+         
+         
+     <button class="btn btn-outline-info " type="submit">logout</button>
+     
+    </form>
+            </div>
+</nav>
+        
+     <div class="row maincontent">  
+        <div class=" col-md-2 sidenav">
+        <nav class=" navbar navbar-Dark  collapsed brand">Admin Panel<button class="navbar-toggler dropbtn" data-toggle="collapse" data-target="#navbarmenu"><span class="navbar-toggler-icon"></span></button></nav>
+    <div class="tab" id="navbarmenu">        
+  <button class="tablinks btn-outline-info" onclick="openCity(event, 'dashboard')" id="defaultOpen"><i class="fas fa-chart-line"></i> &nbsp;Dashboard</button>
+  <button class="tablinks btn-outline-info" onclick="openCity(event, 'category')"><i class="fas fa-list-ul"></i> &nbsp;Categories</button>
+  <button class="tablinks btn-outline-info" onclick="openCity(event, 'subject')"><i class="fas fa-book"></i> &nbsp;Subjects</button>
+  <button class="tablinks btn-outline-info" onclick="openCity(event, 'exam')"><i class="fas fa-clipboard-list"></i>&nbsp; &nbsp;Exams</button>
+  <button class="tablinks btn-outline-info" onclick="openCity(event, 'instructor')"><i class="fas fa-chalkboard-teacher"></i> &nbsp;Instructors</button>
+ <button class="tablinks btn-outline-info" onclick="openCity(event, 'student')"><i class="fas fa-user-graduate"></i> &nbsp;Students</button>
+  <button class="tablinks btn-outline-info" onclick="openCity(event, 'result')"><i class="fas fa-trophy"></i> &nbsp;Results</button>
+  <button class="tablinks btn-outline-info" onclick="openCity(event, 'settings')"><i class="fas fa-cogs"></i> &nbsp;Settings</button>        
+<button class="tablinks btn-outline-info" onclick="openCity(event, 'notice')"><i class="fas fa-bell"></i> &nbsp;Notification</button>
+        <button class="tablinks btn-outline-info" onclick="openCity(event, 'message')"><i class="fas fa-envelope"></i> &nbsp;Messages</button>
+
+
+</div>
+</div>
+
+         <div class=" col-md-10 ">
+<div id="dashboard" class="tabcontent">
+    <div class="row row_1">
+    <div class="col-md-3">
+    <div class="card">
+        <div class="card_content1"> 0 <i class="fas fa-chalkboard-teacher"></i></div>
+        <div class="card_footer1"><h3>Instructors</h3></div>
+        </div>
+    </div>    
+        
+        <div class="col-md-3">
+    <div class="card">
+        <div class="card_content1"> 0 <i class="fas fa-user-graduate"></i></div>
+        <div class="card_footer1"><h3>Students</h3></div>
+        </div>
+    </div> 
+        
+        <div class="col-md-3">
+    <div class="card">
+        <div class="card_content1"> 0 <i class="fas fa-chalkboard-teacher"></i></div>
+        <div class="card_footer1"><h3>Quizzes</h3></div>
+        </div>
+    </div> 
+        
+        <div class="col-md-3">
+    <div class="card">
+        <div class="card_content1"> 0 <i class="fas fa-book"></i></div>
+        <div class="card_footer1"><h3>Subjects</h3></div>
+        </div>
+    </div> 
+    </div>
+    
+     <div class="row row_2">
+    <div class="col-md-3">
+    <div class="card">
+        <div class="card_content2"> 0 <i class="fas fa-list-ul"></i></div>
+        <div class="card_footer2"><h3>Categories</h3></div>
+        </div>
+    </div>    
+        
+        <div class="col-md-3">
+    <div class="card">
+        <div class="card_content2"> 0 <i class="fas fa-question"></i></div>
+        <div class="card_footer2"><h3>Questions</h3></div>
+        </div>
+    </div> 
+        
+        <div class="col-md-3">
+    <div class="card">
+        <div class="card_content2"> 0 <i class="fas fa-bell"></i></div>
+        <div class="card_footer2"><h3>Notifications</h3></div>
+        </div>
+    </div> 
+        
+        <div class="col-md-3">
+    <div class="card">
+        <div class="card_content2"> 0 <i class="fas fa-envelope"></i></div>
+        <div class="card_footer2"><h3>Messages</h3></div>
+        </div>
+    </div> 
+    </div>
+    <br>
+     <div class="row" style="padding: 0px 30px 10px 30px;">
+             <div class="col-md-6 ">
+                 <div class=" dash_box">
+                  <div class="dash_box_header"><h3><center>Messages</center></h3></div>
+                 <div class="content"></div>
+                     </div>
+            </div>
+             <div class="col-md-6" >
+                 <div class=" dash_box">
+             <div class="dash_box_header"><h3><center>Requests</center></h3></div>
+                 <div class="content"></div>
+            </div>
+                 </div>
+             </div>
+            
+</div>
+
+<div id="category" class="tabcontent">
+   
+    <div class="container-fluid"><br>
+                        <ul class="nav nav-tabs nav-head">
+                            <li class=" nav-item "><a class="nav-link active " href="#tab1default"  data-toggle="tab"><i class="fas fa-list-ul"></i> Category List</a></li>
+                            <li class=" nav-item"><a class="nav-link" href="#tab2default" data-toggle="tab"><i class="fas fa-plus"></i> Add category</a></li>
+                        </ul>
+        <div class="tab-content">
+        <div class="tab-pane active " id="tab1default">
+          <span class="category_search"> Search&nbsp; &nbsp; <input  id="ctgr_input" type="text" ></span>  
+            <span class="category_entry"> Show&nbsp; <select>
+      <option>10</option>
+      <option>20</option>
+      <option>30</option>   
+      <option>40</option>
+      <option>50</option>
+    </select>&nbsp; Entries</span>
+            <br> <br>
+            <table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Category Name</th>
+      <th scope="col">Status</th>
+      <th scope="col">Options</th>
+    </tr>
+  </thead>
+  <tbody id="ctgr_table">
+    <tr>
+      <td>Mark</td>
+      <td><button type="button" id="active_ctg" onclick="inactive_ctg_fun()" class="btn btn-success" style="display: none"}><i class="fas fa-eye"></i> Active</button>  <button type="button" class="btn btn-danger" id="inactive_ctg" onclick="activ_ctg_fun()"><i class="fas fa-eye-slash"></i> Deactivated</button></td>
+        <td><button type="button" onclick="edit_ctg_fun()" class="btn btn-primary"><i class="fas fa-wrench"></i> Edit</button> <button type="button" class="btn btn-warning" onclick="del_cat_fun()"><i class="fas fa-trash-alt"></i> Delete</button></td>
+    </tr>
+    
+  </tbody>
+</table>
+            </div>
+        <div class="tab-pane " id="tab2default"><br>
+            <span class="category_add"> Category Name &nbsp; &nbsp; <input type="text" ></span> <br><br>&nbsp; &nbsp;
+            <button type="button" class="btn btn-info" style="margin-left: 9%;"> Add New Category</button>
+            </div>
+        </div>  
+                
+                </div>
+</div>
+   
+<div id="subject" class="tabcontent">
+   <div class="container-fluid"><br>
+                        <ul class="nav nav-tabs nav-head">
+                            <li class=" nav-item "><a class="nav-link active " href="#tab3default"  data-toggle="tab"><i class="fas fa-list-ul"></i> Subject List</a></li>
+                            <li class=" nav-item"><a class="nav-link" href="#tab4default" data-toggle="tab"><i class="fas fa-plus"></i> Add Subject</a></li>
+                        </ul>
+        <div class="tab-content">
+        <div class="tab-pane active " id="tab3default">
+          <span class="category_search"> Search&nbsp; &nbsp; <input  id="sub_Input" type="text" ></span>  
+            <span class="category_entry"> Show&nbsp; <select>
+      <option>10</option>
+      <option>20</option>
+      <option>30</option>   
+      <option>40</option>
+      <option>50</option>
+    </select>&nbsp; Entries</span>
+            <br> <br>
+            <table class="table table-striped table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">Subject Name</th>
+        <th scope="col">Category</th>
+      <th scope="col">Status</th>
+      <th scope="col">Options</th>
+    </tr>
+  </thead>
+  <tbody id="sub_Table">
+    <tr>
+      <td>Mark</td>
+        <td>Mark</td>
+      <td><button type="button" id="active_sub" onclick="inactive_sub_fun()" class="btn btn-success" style="display: none"}><i class="fas fa-eye"></i> Active</button>  <button type="button" class="btn btn-danger" id="inactive_sub" onclick="activ_sub_fun()"><i class="fas fa-eye-slash"></i> Deactivated</button></td>
+        <td><button type="button" onclick="edit_sub_fun()" class="btn btn-primary"><i class="fas fa-wrench"></i> Edit</button> <button type="button" class="btn btn-warning" onclick="del_sub_fun()"><i class="fas fa-trash-alt"></i> Delete</button></td>
+    </tr>
+    
+  </tbody>
+</table>
+            </div>
+        <div class="tab-pane " id="tab4default"><br>
+            <span class="category_add"> Subject Name &nbsp; &nbsp; <input type="text" ><br><br>
+            Category  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; <select class="category_slct">
+                <option></option>
+        <option>1</option>
+        <option>2</option>
+        <option>3</option>
+        <option>4</option>
+      </select></span>
+            <br><br>&nbsp; &nbsp;
+            <button type="button" class="btn btn-info" style="margin-left: 9%;"> Add New Subject</button>
+            </div>
+        </div>  
+                
+                </div>
+</div>
+   
+
+         
+<div id="exam" class="tabcontent">
+   <div class="div_header"><h3>Quiz</h3></div>
+</div>
+<div id="instructor" class="tabcontent">
+   <div class="div_header"><h3>Instructors</h3></div>
+</div>
+<div id="student" class="tabcontent">
+   <div class="div_header"><h3>Students</h3></div>
+</div>
+<div id="result" class="tabcontent">
+   <div class="div_header"><h3>Results</h3></div>
+</div>
+<div id="settings" class="tabcontent">
+   <div class="div_header"><h3>Settings</h3></div>
+</div>
+<div id="notice" class="tabcontent">
+   <div class="div_header"><h3>Notifications</h3></div>
+</div>
+<div id="message" class="tabcontent">
+   <div class="div_header"><h3>Messages</h3></div>
+</div>
+<div id="password" class="tabcontent">
+   <div class="div_header"><h3>password</h3></div>
+</div>
+<div id="profile" class="tabcontent">
+    <div class="profile_card">  
+   <CENTER><div class="purple"><div class="blue">
+        <div class="image"></div></div></div></CENTER>
+      <br> <center id="name">Admin</center><hr align="center" color="white" onfocus="outline:none;">
+        Designation : <span class="profile_data">Admin</span><hr align="center" color="white" onfocus="outline:none;">   
+        Gender: <span class="profile_data">Male</span><hr align="center" color="white" onfocus="outline:none;">
+           Birthday: <span class="profile_data">xxxx</span><hr align="center" color="white" onfocus="outline:none;">
+           Mobile Number:<span class="profile_data">xxxx-xxxxxxx</span><hr align="center" color="white" onfocus="outline:none;">
+           Email : <span class="profile_data">xxx@x.com</span><hr align="center" color="white" onfocus="outline:none;">
+          Address:<span class="profile_data">xxxxxxxxxxx</span><hr align="center" color="white" onfocus="outline:none;">
+      <center>  <button type="button" class="btn btn-info"><i class="fas fa-wrench"></i> Edit Profile</button></center>
+          
+    </div>
+</div>
+</div>
+      </div>    
+        <script>
+$(document).ready(function(){
+  $("#ctgr_input").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#ctgr_table tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+            $(document).ready(function(){
+  $("#sub_Input").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#sub_Table tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+            
+            function inactive_ctg_fun() {
+                if (confirm("Are you sure you want to deactivate this category!")) {
+                document.getElementById('inactive_ctg').style.display = 'inline';
+                 document.getElementById('active_ctg').style.display = 'none';    }  
+}
+            function inactive_sub_fun() {
+                if (confirm("Are you sure you want to deactivate this Subject!")) {
+                document.getElementById('inactive_sub').style.display = 'inline';
+                 document.getElementById('active_sub').style.display = 'none';    }  
+}
+            
+             function activ_ctg_fun() {
+    document.getElementById('active_ctg').style.display = 'inline   ';
+                 document.getElementById('inactive_ctg').style.display = 'none';
+}
+            function activ_sub_fun() {
+    document.getElementById('active_sub').style.display = 'inline   ';
+                 document.getElementById('inactive_sub').style.display = 'none';
+}
+            
+            function del_cat_fun() {
+    if (confirm("Are you sure you want to Delete this category! BSDK")) {}
+}
+            
+            function del_sub_fun() {
+    if (confirm("Are you sure you want to Delete this subject!")) {}
+}
+            
+             function edit_ctg_fun(){
+                  var person = prompt("Change Category name:");   
+             }
+            
+            function edit_sub_fun(){
+                  var person = prompt("Change subject name:");   
+             }
+</script>
+
+        
+        
+        <script>
+   function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+            
+            
+            
+</script>
+     
+        
+        
+        
+        
+    </body>
+</html>

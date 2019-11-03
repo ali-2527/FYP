@@ -1,0 +1,388 @@
+
+.headnav{background-color: #314757!important;
+    
+}
+.drop_dwn{
+ background-color: #314757!important;   
+}
+.tab {
+    float: left;
+    border: 1px solid #ccc;
+    background-color: #314757;
+    width: 100%;
+    padding-right: 1!important;
+    border: none;
+}
+
+.tab button {
+    display: block;
+    background-color: inherit;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+    text-align: left;
+}
+.brand{
+    background-color: #314757;  
+    display: block;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0!important;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    align-content: center!important;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 2px;
+}
+
+.dropdown-content  ul {
+    align-content: center!important;
+    padding: 10px;
+
+}
+
+.dropbtn:focus{outline: 0;}
+
+    
+
+.dropdown-content  li {
+    align-content: center!important;
+    color: black;
+    padding: 0px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.dropdown-content a:hover{
+    transform: scale(1.1);
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.col-md-10{
+    margin:0!important;
+    padding:0!important;
+}
+.sidenav{
+    padding-right: 0!important;
+    background-color: #314757;
+}
+.brand button{
+    float: right;
+    color:black;
+    width:30px;
+    padding: 0;
+    border:none;
+}
+.tab button i {
+    font-size: 25px;
+}
+.tabcontent {
+    float: left;
+    padding: 0px;
+    width: 100%;
+    border-left: none;
+    min-height: 100%;
+    background-color: #eeeeee;
+}
+
+.row_1 , .row_2 {
+    padding:10px;
+    margin: 0!important;
+}
+
+.row .card{
+    height:20%;
+    font-size: 50px;
+    color: white;
+    background-color: aqua;
+    border: none;
+    overflow: hidden;
+   }
+
+.div_header{
+    width: 100%;
+    margin: 0;
+    border: none;
+    height: 45px;
+    background-color: grey;
+    padding :10px 15px;
+    }
+
+.div_header h3{
+  text-align: center;
+    color: white;
+    font-family: 'galada',sans-serif;
+}
+
+.footer{
+    height: 10%;
+    width: 100%;
+}
+
+.card_content1{
+    height: 75%;
+    width: 100%;
+    padding:  5% 10% 5% 10%  ;
+}
+.card_content2{
+    height: 75%;
+    width: 100%;
+    padding:  5% 10% 5% 10%  ;
+}
+
+.col-md-3:nth-child(1) .card_content1{
+     background-color: 00c0ef;
+}
+.col-md-3:nth-child(2) .card_content1{
+     background-color: 00a65a;
+}
+.col-md-3:nth-child(3) .card_content1{
+     background-color: f39c11;
+}
+.col-md-3:nth-child(4) .card_content1{
+     background-color: f66955;
+}
+
+.col-md-3:nth-child(1) .card_content2{
+     background-color: firebrick;
+}
+.col-md-3:nth-child(2) .card_content2{
+     background-color:  922ab5;
+}
+.col-md-3:nth-child(3) .card_content2{
+     background-color: 3acccc;
+}
+.col-md-3:nth-child(4) .card_content2{
+     background-color: 85144a;
+}
+
+
+
+
+.col-md-3:nth-child(1) .card_footer1{
+     background-color: 00adda;
+}
+.col-md-3:nth-child(2) .card_footer1{
+     background-color: 019752;
+}
+.col-md-3:nth-child(3) .card_footer1{
+     background-color: db8d0f;
+}
+.col-md-3:nth-child(4) .card_footer1{
+     background-color: e0604d;
+}
+
+.col-md-3:nth-child(1) .card_footer2{
+     background-color: darkred;
+}
+.col-md-3:nth-child(2) .card_footer2{
+     background-color:  8915ab;
+}
+.col-md-3:nth-child(3) .card_footer2{
+     background-color: 33b7b9;
+}
+.col-md-3:nth-child(4) .card_footer2{
+     background-color: 780043;
+}
+
+
+
+.col-md-3:nth-child(1) .card_content1  i{
+    color: 00adda;
+}
+.col-md-3:nth-child(2) .card_content1  i{
+    color: 019752;
+}
+.col-md-3:nth-child(3) .card_content1  i{
+    color: db8d0f;
+}
+.col-md-3:nth-child(4) .card_content1  i{
+    color: e0604d;
+}
+
+.col-md-3:nth-child(1) .card_content2  i{
+    color: darkred;
+}
+.col-md-3:nth-child(2) .card_content2  i{
+    color:  8915ab;
+}
+.col-md-3:nth-child(3) .card_content2  i{
+    color: 33b7b9;
+}
+.col-md-3:nth-child(4) .card_content2  i{
+    color: 780043;
+}
+
+
+.card_content1  i{
+    margin-top: 10px;
+    float:right;
+    color:8526a4;
+}
+.card_content2  i{
+    margin-top: 10px;
+    float:right;
+    color:8526a4;
+}
+.card_footer1 ,.card_footer2{
+    height: 25%;
+    padding: 4 10 0 10;
+    font-family: 'galada',sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+.content{
+    height: 50%;
+    border: none;
+    overflow: scroll;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.dash_box{
+   box-shadow: 1px 1px 8px 8px rgba(0,0,0,0.08); 
+    padding: 0 !important;
+    margin: auto;
+}
+
+.dash_box_header{
+    background-color: white;
+}
+
+.dash_box_header  h3{
+   margin: auto;
+    padding: 10;
+    font-family:  'galada',sans-serif;
+    font-size: 25;
+}
+.maincontent 
+{
+    margin-right: 0!important;
+}
+
+.tab-pane{
+    background-color: white;
+    padding: 10;
+    min-height: 300px;
+    border-radius: 5px;
+        box-shadow: 1px 5px 20px 8px rgba(0,0,0,0.08);
+}
+.nav-head{
+    background-color: gainsboro;
+    border-radius: 5px;
+    font-family: 'galada',sans-serif;
+    color: white;
+}
+
+.category_search , .category_entry , .category_add{
+    font-family: 'galada',sans-serif;
+    color: grey;
+}
+.category_entry{
+    float: right;
+}
+
+.category_search input{
+    font-family: 'galada',sans-serif;
+    border-radius: 5px; 
+    min-width: 30% !important;   
+    border:1px solid gainsboro;
+}
+.category_entry select{
+      font-family: 'galada',sans-serif;
+    border-radius: 5px;  
+    border:1px solid gainsboro;  
+}
+.table td , table th{
+   text-align: center;   
+}
+
+.category_add input{
+    font-family: 'galada',sans-serif;
+    border-radius: 5px; 
+    width: 80%;   
+    border:1px solid gainsboro;
+    height: 35px;
+    font-size: 20px;
+}
+
+.category_slct{
+    font-family: 'galada',sans-serif;
+    border-radius: 5px; 
+    width: 80%;   
+    border:1px solid gainsboro;
+    height: 35px;
+    font-size: 20px; 
+}
+
+.profile_card{
+    margin: auto;
+    margin-top: 15px;
+    width:80%;
+    min-height: 100%;   
+    background-color: #2a3542;
+    padding: 2%;
+    font-family: 'galada',sans-serif;
+    color: aliceblue;
+    font-size: 30px;
+    line-height: 20px;
+}
+
+.image{
+    background-image: url(../img/user.jpg);
+    background-position: center;
+    width:95%;
+    height: 95%;
+    border: none;
+    border-radius: 60%;
+}
+
+.profile_data{
+   margin-left: 20px;
+    color: gray;    
+}
+#name{
+    font-size: 40px;
+}
+.purple{
+    background-color: purple;
+    align-content: center;
+    width:220px;
+    height: 220px;
+    border: none;
+    border-radius: 60%;
+    margin: 5px;
+}
+.blue{
+    background-color: blue;
+    align-content: center;
+    width:95%;
+    height: 95%;
+    border: none;
+    border-radius: 60%;
+}
