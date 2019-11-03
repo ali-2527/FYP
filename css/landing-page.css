@@ -1,4 +1,8 @@
-  *{
+@font-face{
+    src: url(fonts/Rochester-Regular.ttf);
+    font-family: rochester;
+} 
+*{
     border: none !important;
     outline: 0 !important;
 }
@@ -318,6 +322,7 @@ transform: scale(1.1)
     color:#FFF;
     font-weight:700;
     font-size:30px;
+    font-family: 'rochester';
 }
 .footerp{
     color: white;
