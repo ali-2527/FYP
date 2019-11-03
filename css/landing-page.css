@@ -219,74 +219,25 @@ color: white;
     transform-origin: top right;
     transform: skewY(2deg);
 }
-.features .col-md-4{
+.gallery {
     padding: 3%;   
 }
 
-.features .card  h2{
-  font-family: 'galada',sans-serif;
-    color: white;
-}
-
-.features .card1 ,.features .card{
-    min-height: 70%;
-    border-radius: 25px;
-    border: none;
-    padding: 5% ;
-    font-family: 'open-sans',sans-serif;
-    text-align: justify;
-    color: white;
-}
-
-.features .card1  h2 {
-  font-family: 'galada',sans-serif;
-    color: white;
-}
-
-.col-md-4:nth-child(1) .card {
-    background:linear-gradient(rgb(244, 3, 209,0.8) ,rgb(100, 181, 246,0.8));
-}
-
-.col-md-4:nth-child(2) .card{
-    background:linear-gradient(rgb(255, 236, 97,0.8) ,rgb(243, 33, 215,0.8));
-}
-
-.col-md-4:nth-child(3) .card{
-    background:linear-gradient(rgb(36, 255, 114,0.8) ,rgb(154, 78, 255,0.8));
-}
-
-.col-md-4:nth-child(1) .card1{
-    background:linear-gradient(rgba(244, 3, 209,0.8) ,rgba(100, 181, 246,0.8));
-}
-
-.col-md-4:nth-child(2) .card1{
-    background:linear-gradient(rgb(255, 236, 97,0.8) ,rgb(243, 33, 215,0.8));
-}
-
-.col-md-4:nth-child(3) .card1{
-    background:linear-gradient(rgb(36, 255, 114,0.8) ,rgb(154, 78, 255,0.8));
-}
-.card img ,.card1 img{
-    height:60px; 
-}
-.cardbutton{
-    background-color: white;
-    width:50%;
-    height:40px;
-    padding: 2%;
-    margin-bottom: 4%;
+.gallery_btn{
+  height: 40px;
+    width:150px;
     border: none;
     border-radius: 40px;
+    color: white;
+    background-color: blueviolet;
+    align-self: center;
 }
 
-.card:hover,.card1:hover{
-    transition: 0.5s;
-    transform: scale(1.1);
+.gallery_btn:hover{
+transform: scale(1.1)
 }
+/*.col-md-4:nth-child(1) .card */
 
-.cardbutton:focus{
-outline: 0;
-}
 .contact{
     min-height: 50%;
 }
