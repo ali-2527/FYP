@@ -20,7 +20,7 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .nav-button{
-    background-color: purple;
+    background-color:  #021e52;
     
     border: none;
     outline: 0;
@@ -89,7 +89,7 @@ shape-outside: circle();
     min-height: 40%;
     padding-top: 10  !important;
     padding-bottom: 0  !important;
-    background-color: blueviolet;
+    background-color:  #021e52;
      padding: 3%;
 }
 
@@ -166,13 +166,13 @@ color: white;
 
 .slantediv2 h1{
 font-family: 'galada',sans-serif;
-    color: purple;
+    color:  #021e52;
 }
 
 
 .slantediv2 p{
 font-size: 20px;
-color: purple;
+color:  #021e52;
     text-align: justify;
 }
 
@@ -201,7 +201,7 @@ color: white;
     position: relative;
     width:100%;
     padding-top: 0  !important;
-    background-color: blueviolet;
+    background-color:  #021e52;
      padding: 3%;
 }
 
@@ -229,7 +229,7 @@ color: white;
     border: none;
     border-radius: 40px;
     color: white;
-    background-color: blueviolet;
+    background-color:  #021e52;
     align-self: center;
 }
 
@@ -256,7 +256,7 @@ transform: scale(1.1)
     border: none;
     border-radius: 40px;
     color: white;
-    background-color: blueviolet;
+    background-color:  #021e52;
     float: right;
 }
 .contactbtn:hover{
@@ -305,7 +305,7 @@ transform: scale(1.1)
 
 
 .address .fa{
-    color: blueviolet;
+    color:  #021e52;
     margin-right: 10px;
     font-size:18px;
 }
